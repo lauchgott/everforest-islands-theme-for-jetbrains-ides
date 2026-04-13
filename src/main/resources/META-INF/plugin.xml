@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.github.florianseidel.everforest-islands-theme</id>
+  <name>Everforest Islands Theme</name>
+  <vendor>Florian Seidel</vendor>
+  <description>
+    Everforest color theme with Islands UI support.
+    Provides 6 variants: Dark (Hard, Medium, Soft) and Light (Hard, Medium, Soft).
+    Based on the Everforest color scheme by sainnhe.
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Dark Variants -->
+    <themeProvider id="com.github.florianseidel.everforest-dark-hard"
+                   path="/themes/everforest_dark_hard.theme.json"/>
+    <themeProvider id="com.github.florianseidel.everforest-dark-medium"
+                   path="/themes/everforest_dark_medium.theme.json"/>
+    <themeProvider id="com.github.florianseidel.everforest-dark-soft"
+                   path="/themes/everforest_dark_soft.theme.json"/>
+
+    <!-- Light Variants -->
+    <themeProvider id="com.github.florianseidel.everforest-light-hard"
+                   path="/themes/everforest_light_hard.theme.json"/>
+    <themeProvider id="com.github.florianseidel.everforest-light-medium"
+                   path="/themes/everforest_light_medium.theme.json"/>
+    <themeProvider id="com.github.florianseidel.everforest-light-soft"
+                   path="/themes/everforest_light_soft.theme.json"/>
+  </extensions>
+</idea-plugin>
