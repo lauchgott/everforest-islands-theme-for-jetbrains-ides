@@ -3,27 +3,36 @@
   <id>com.github.florianseidel.everforest-islands-theme</id>
   <name>Everforest Islands Theme</name>
   <vendor>Florian Seidel</vendor>
+  <category>UI</category>
   <description>
     Everforest color theme with Islands UI support.
     Provides 6 variants: Dark (Hard, Medium, Soft) and Light (Hard, Medium, Soft).
     Based on the Everforest color scheme by sainnhe.
   </description>
 
+  <depends>com.intellij.modules.platform</depends>
+
   <extensions defaultExtensionNs="com.intellij">
     <!-- Dark Variants -->
     <themeProvider id="com.github.florianseidel.everforest-dark-hard"
-                   path="/themes/everforest_dark_hard.theme.json"/>
+                   path="/themes/everforest_dark_hard.theme.json"
+                   targetUi="islands"/>
     <themeProvider id="com.github.florianseidel.everforest-dark-medium"
-                   path="/themes/everforest_dark_medium.theme.json"/>
+                   path="/themes/everforest_dark_medium.theme.json"
+                   targetUi="islands"/>
     <themeProvider id="com.github.florianseidel.everforest-dark-soft"
-                   path="/themes/everforest_dark_soft.theme.json"/>
+                   path="/themes/everforest_dark_soft.theme.json"
+                   targetUi="islands"/>
 
     <!-- Light Variants -->
     <themeProvider id="com.github.florianseidel.everforest-light-hard"
-                   path="/themes/everforest_light_hard.theme.json"/>
+                   path="/themes/everforest_light_hard.theme.json"
+                   targetUi="islands"/>
     <themeProvider id="com.github.florianseidel.everforest-light-medium"
-                   path="/themes/everforest_light_medium.theme.json"/>
+                   path="/themes/everforest_light_medium.theme.json"
+                   targetUi="islands"/>
     <themeProvider id="com.github.florianseidel.everforest-light-soft"
-                   path="/themes/everforest_light_soft.theme.json"/>
+                   path="/themes/everforest_light_soft.theme.json"
+                   targetUi="islands"/>
   </extensions>
 </idea-plugin>

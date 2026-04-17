@@ -1,8 +1,8 @@
 plugins {
-    id("org.jetbrains.intellij.platform") version "2.6.0"
+    id("org.jetbrains.intellij.platform") version "2.10.5"
 }
 
-group = "com.github.florianseidel"
+group = "com.github.lauchgott"
 version = "1.0.0"
 
 repositories {
@@ -13,24 +13,26 @@ repositories {
 }
 
 intellijPlatform {
+    publishing {
+        token = providers.environmentVariable("PUBLISH_TOKEN")
+    }
     pluginConfiguration {
-        id = "com.github.florianseidel.everforest-islands-theme"
+        id = "com.github.lauchgott.everforest-islands-theme"
         name = "Everforest Islands Theme"
-        version = "1.0.0"
-        description = "Everforest color theme with Islands UI support – dark and light variants in hard, medium, and soft contrast."
+        version = "0.1.0"
+        description = "This is a Port of the sainnhe/everforest theme for JetBrains based IDEs. This one is still work in progress. all credits go to the creators of this colorscheme - not me"
         vendor {
-            name = "Florian Seidel"
+            name = "lauchgott"
         }
         ideaVersion {
-            sinceBuild = "251"
+            sinceBuild = "232"
         }
     }
 }
 
 dependencies {
     intellijPlatform {
-        // Target IntelliJ IDEA 2025.1 (Islands UI available from 2025.1)
-        intellijIdeaCommunity("2025.1")
+        intellijIdeaCommunity("2025.2.3")
         pluginVerifier()
         zipSigner()
         instrumentationTools()

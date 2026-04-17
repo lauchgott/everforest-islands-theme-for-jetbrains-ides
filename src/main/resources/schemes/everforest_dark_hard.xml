@@ -7,6 +7,7 @@
     <property name="originalScheme">Everforest Dark Hard</property>
   </metaInfo>
   <colors>
+    <option name="BACKGROUND" value="272e33"/>
     <option name="ADDED_LINES_COLOR" value="3c4a3e"/>
     <option name="ANNOTATIONS_COLOR" value="7a8288"/>
     <option name="CARET_COLOR" value="d3c6aa"/>
@@ -410,6 +411,69 @@
         <option name="EFFECT_COLOR" value="e67e80"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
+    </option>
+    <option name="DEFAULT_BRACES">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="DEFAULT_PARENTHESES">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="DEFAULT_COMMA">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="DEFAULT_DOT">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="DEFAULT_SEMICOLON">
+      <value><option name="FOREGROUND" value="d3c6aa"/></value>
+    </option>
+    <option name="FILESTATUS_ADDED">
+      <value><option name="FOREGROUND" value="a7c080"/></value>
+    </option>
+    <option name="FILESTATUS_COPIED">
+      <value><option name="FOREGROUND" value="83c092"/></value>
+    </option>
+    <option name="FILESTATUS_DELETED">
+      <value><option name="FOREGROUND" value="e67e80"/></value>
+    </option>
+    <option name="FILESTATUS_DELETED_FROM_FS">
+      <value><option name="FOREGROUND" value="e67e80"/></value>
+    </option>
+    <option name="FILESTATUS_HIJACKED">
+      <value><option name="FOREGROUND" value="e69875"/></value>
+    </option>
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FS">
+      <value><option name="FOREGROUND" value="e67e80"/></value>
+    </option>
+    <option name="FILESTATUS_IGNORED">
+      <value><option name="FOREGROUND" value="859289"/></value>
+    </option>
+    <option name="FILESTATUS_MERGED">
+      <value><option name="FOREGROUND" value="7fbbb3"/></value>
+    </option>
+    <option name="FILESTATUS_MERGED_WITH_BOTH_CONFLICTS">
+      <value><option name="FOREGROUND" value="e67e80"/></value>
+    </option>
+    <option name="FILESTATUS_MERGED_WITH_CONFLICTS">
+      <value><option name="FOREGROUND" value="e67e80"/></value>
+    </option>
+    <option name="FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS">
+      <value><option name="FOREGROUND" value="e69875"/></value>
+    </option>
+    <option name="FILESTATUS_MODIFIED">
+      <value><option name="FOREGROUND" value="7fbbb3"/></value>
+    </option>
+    <option name="FILESTATUS_RENAMED">
+      <value><option name="FOREGROUND" value="83c092"/></value>
+    </option>
+    <option name="FILESTATUS_SWITCHED">
+      <value><option name="FOREGROUND" value="d699b6"/></value>
+    </option>
+    <option name="FILESTATUS_UNKNOWN">
+      <value><option name="FOREGROUND" value="dbbc7f"/></value>
     </option>
   </attributes>
 </scheme>

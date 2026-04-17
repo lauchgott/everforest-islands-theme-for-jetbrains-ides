@@ -6,3 +6,5 @@ build/
 *.ipr
 local.properties
 .DS_Store
+/ComparisonTheme/
+.claude
