@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.lauchgott"
-version = "1.0.0"
+version = "0.1.2"
 
 repositories {
     mavenCentral()
@@ -19,13 +19,14 @@ intellijPlatform {
     pluginConfiguration {
         id = "com.github.lauchgott.everforest-islands-theme"
         name = "Everforest Islands Theme"
-        version = "0.1.0"
+        version = "0.1.2"
         description = "This is a Port of the sainnhe/everforest theme for JetBrains based IDEs. This one is still work in progress. all credits go to the creators of this colorscheme - not me"
         vendor {
             name = "lauchgott"
         }
         ideaVersion {
             sinceBuild = "232"
+            untilBuild = provider { null }
         }
     }
 }

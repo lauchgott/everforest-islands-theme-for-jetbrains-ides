@@ -34,6 +34,12 @@
     <option name="WHITESPACES" value="414b50"/>
   </colors>
   <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="d3c6aa"/>
+        <option name="BACKGROUND" value="272e33"/>
+      </value>
+    </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="83c092"/>
